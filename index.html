@@ -14,9 +14,9 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <!-- Fonts CSS-->
+      <!-- This is a link to a stylesheet with style rules extracted from bootstrap to improve loading times and minimize the amount of memory taked up at load time -->
+        <link href="css/styles.css" rel="stylesheet" />
+    <!-- This is where I extracted out the fontface selections for the heading and the body of the portfolio page-->
     <link rel="stylesheet" href="css/heading.css" />
     <link rel="stylesheet" href="css/body.css" />
   </head>
@@ -26,6 +26,7 @@
           <a class="navbar-brand js-scroll-trigger" href="#page-top"
             >LUKE POIRRIER</a
           >
+          <!-- Support for when the navbar is collapsed on mobile/ hamburger menu. This will not be displayed on larger screen devices -->
           <button
             class="
               navbar-toggler navbar-toggler-right
@@ -41,10 +42,12 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
+          <!-- Hamburder Icon from font awesome -->
             Menu <i class="fas fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
+                  <!-- Links to the various sections of the page -->
               <li class="nav-item mx-0 mx-lg-1">
                 <a
                   class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
@@ -72,7 +75,7 @@
       </nav>
       <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-              <!-- Masthead Avatar Image--><img
+              <!-- The most recent picture I have, I plan to get a more professional headshot done near the end of the bootcamp --><img
                 class="masthead-avatar mb-5 rounded-circle"
                 src="./assets/img/profilepic.png"
                 alt=""
