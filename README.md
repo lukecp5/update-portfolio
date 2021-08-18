@@ -23,7 +23,7 @@ As of now, it only has 5 active projects in the portfolio section. I plan to add
 The project is deployed live at: [https://lukecp5.github.io/update-portfolio/](https://lukecp5.github.io/update-portfolio/)
 
 ## Project Screenshot
-![Screenshot of my Portfolio](https://github.com/lukecp5/Portfolio-Project/blob/main/assets/images/sml-screenshot.png?raw=true)
+![Screenshot of my Portfolio](https://github.com/lukecp5/update-portfolio/blob/main/assets/img/portfolio-ss.png?raw=true)
 
 ## Contact Me
 LinkedIn: [@luke-poirrier](https://www.linkedin.com/in/luke-poirrier)  
